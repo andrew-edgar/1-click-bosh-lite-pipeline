@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 
 export PATH=$PATH:$(readlink -f 1-click/tasks)
 

@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 
 # Hack to work around Concourse, which tries to interpret ((variables)).
 # Simply "unescaping" `_(_(` to `((`:

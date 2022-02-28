@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 
 mkdir -p gopath/src/github.com/cloudfoundry
 cp -a cf-smoke-tests gopath/src/github.com/cloudfoundry/

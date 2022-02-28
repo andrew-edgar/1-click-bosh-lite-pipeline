@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 
 pushd state/environments/softlayer/director/$BOSH_LITE_NAME
     cat hosts >> /etc/hosts

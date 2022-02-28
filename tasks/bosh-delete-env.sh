@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 
 if [ ! -e state/environments/softlayer/director/$BOSH_LITE_NAME/state.json ]; then
   echo 'Nothing to delete'
